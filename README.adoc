@@ -15,3 +15,9 @@ cp events/barracuda-spam.events.xml ${OPENNMS_HOME}/etc/events
 ----
 <event-file>events/barracuda-spam.events.xml</event-file>
 ----
+
+## License & Authors
+
+- Author:: Marcel Fuhrmann <mfuhrmann@mailbox.org>
+
+Licensed under the GNU Affero General Public License 3+. You may obtain a copy of the License at http://www.gnu.org/licenses/agpl-3.0.html.
