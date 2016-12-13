@@ -1,5 +1,6 @@
-# barracuda-spam
-Barracuda Email Security Gateway
+# Barracuda Email Security Gateway
+
+SNMP trap definitions.
 
 ## Enable SNMP trap support
 
