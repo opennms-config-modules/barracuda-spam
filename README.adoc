@@ -1,23 +1,27 @@
 = Barracuda Email Security Gateway
 
-SNMP trap definitions.
+OpenNMS configuration for Barracuda Email Security Gateway.
 
-== Enable SNMP trap support
+== Installation
 
-.Copy into OpenNMS configuration folders
+.Download and install from GitHub
 [source, bash]
 ----
-cp events/barracuda-spam.events.xml ${OPENNMS_HOME}/etc/events
+mkdir ${HOME}/opennms-config-workspace
+cd ${HOME}/opennms-config-workspace
+git clone https://github.com/opennms-config-modules/barracuda-spam.git
 ----
 
-.Add include statement as first entry in ${OPENNMS_HOME}/etc/eventconf.xml
+=== Events
+
+.Install Barracuda Sapm events
 [source, bash]
+----
+cp ${HOME}/opennms-config-workspace/barracuda-spam/events/*.xml ${OPENNMS_HOME}/etc/events
+----
+
+.Include in eventconf.xml
+[source, xml]
 ----
 <event-file>events/barracuda-spam.events.xml</event-file>
 ----
-
-## License & Authors
-
-- Author:: Marcel Fuhrmann <mfuhrmann@mailbox.org>
-
-Licensed under the GNU Affero General Public License 3+. You may obtain a copy of the License at http://www.gnu.org/licenses/agpl-3.0.html.

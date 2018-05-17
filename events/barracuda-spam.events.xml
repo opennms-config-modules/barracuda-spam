@@ -1,309 +1,308 @@
-<?xml version="1.0"?>
-<events xmlns="http://xmlns.opennms.org/xsd/eventconf">
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>2</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/cpuFanDead</uei>
-    <event-label>Barracuda-SPAM defined trap event: cpuFanDead</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      One of the CPU fans is dead.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	cpuFanDead trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>3</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/sysFanDead</uei>
-    <event-label>Barracuda-SPAM defined trap event: sysFanDead</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      One of the System fans is dead.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	sysFanDead trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>4</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/cpuTempHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: cpuTempHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      CPU temperature is higher than 70C.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	cpuTempHigh trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>5</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/firmwareStorageHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: firmwareStorageHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      Firmware storage exceeds 75%.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	firmwareStorageHigh trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/mailStorageHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: mailStorageHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      Mail storage exceeds 85%.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	mailStorageHigh trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>7</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/raidDegrading</uei>
-    <event-label>Barracuda-SPAM defined trap event: raidDegrading</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                      One of the RAID arrays is degrading.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	raidDegrading trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>8</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/inQueueHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: inQueueHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                     Spam in-queue size is high&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+<events xmlns="https://xmlns.opennms.org/xsd/eventconf">
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>2</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/cpuFanDead</uei>
+        <event-label>Barracuda-SPAM defined trap event: cpuFanDead</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            One of the CPU fans is dead.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            cpuFanDead trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>3</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/sysFanDead</uei>
+        <event-label>Barracuda-SPAM defined trap event: sysFanDead</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            One of the System fans is dead.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            sysFanDead trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>4</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/cpuTempHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: cpuTempHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            CPU temperature is higher than 70C.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            cpuTempHigh trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>5</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/firmwareStorageHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: firmwareStorageHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Firmware storage exceeds 75%.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            firmwareStorageHigh trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/mailStorageHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: mailStorageHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Mail storage exceeds 85%.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            mailStorageHigh trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>7</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/raidDegrading</uei>
+        <event-label>Barracuda-SPAM defined trap event: raidDegrading</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            One of the RAID arrays is degrading.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            raidDegrading trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>8</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/inQueueHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: inQueueHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Spam in-queue size is high&lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	inQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	inQueueHigh trap received
-	inQueueSize=%parm[#1]%&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>9</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/outQueueHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: outQueueHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                     Spam out-queue size is high&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            inQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            inQueueHigh trap received
+            inQueueSize=%parm[#1]%&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>9</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/outQueueHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: outQueueHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Spam out-queue size is high&lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	outQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	outQueueHigh trap received
-	outQueueSize=%parm[#1]%&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>10</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/deferredQueueHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: deferredQueueHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                     Spam deferred-queue size is high&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            outQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            outQueueHigh trap received
+            outQueueSize=%parm[#1]%&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>10</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/deferredQueueHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: deferredQueueHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Spam deferred-queue size is high&lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	deferredQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	deferredQueueHigh trap received
-	deferredQueueSize=%parm[#1]%&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>11</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/latencyHigh</uei>
-    <event-label>Barracuda-SPAM defined trap event: latencyHigh</event-label>
-    <descr>
-&lt;p&gt;Severity: Alert
-                     Spam email latency is high&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            deferredQueueSize&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            deferredQueueHigh trap received
+            deferredQueueSize=%parm[#1]%&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>11</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/latencyHigh</uei>
+        <event-label>Barracuda-SPAM defined trap event: latencyHigh</event-label>
+        <descr>
+            &lt;p&gt;Severity: Alert
+            Spam email latency is high&lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	avgEmailLatency&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	latencyHigh trap received
-	avgEmailLatency=%parm[#1]%&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
-  <event>
-    <mask>
-      <maskelement>
-        <mename>id</mename>
-        <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>generic</mename>
-        <mevalue>6</mevalue>
-      </maskelement>
-      <maskelement>
-        <mename>specific</mename>
-        <mevalue>12</mevalue>
-      </maskelement>
-    </mask>
-    <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/noMail</uei>
-    <event-label>Barracuda-SPAM defined trap event: noMail</event-label>
-    <descr>
-&lt;p&gt;Severity: Information
-                      No Mails received in 24 hours.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
-	</descr>
-    <logmsg dest="logndisplay">&lt;p&gt;
-	noMail trap received&lt;/p&gt;
-	</logmsg>
-    <severity>Indeterminate</severity>
-  </event>
+            avgEmailLatency&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            latencyHigh trap received
+            avgEmailLatency=%parm[#1]%&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.20632.2.1</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>12</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/traps/vendor/Barracuda-SPAM/noMail</uei>
+        <event-label>Barracuda-SPAM defined trap event: noMail</event-label>
+        <descr>
+            &lt;p&gt;Severity: Information
+            No Mails received in 24 hours.&lt;/p&gt;&lt;table&gt;&lt;/table&gt;
+        </descr>
+        <logmsg dest="logndisplay">&lt;p&gt;
+            noMail trap received&lt;/p&gt;
+        </logmsg>
+        <severity>Indeterminate</severity>
+    </event>
 </events>
